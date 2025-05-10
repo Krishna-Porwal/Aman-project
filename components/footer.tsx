@@ -4,8 +4,8 @@ import { Facebook, Instagram, Twitter } from "lucide-react"
 export default function Footer() {
   return (
     <footer className="w-full border-t bg-background">
-      <div className="container px-4 md:px-6 py-8 md:py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+      <div className="container mx-auto px-4 md:px-6 py-8 md:py-12 max-w-7xl">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
           <div className="space-y-4">
             <h3 className="text-lg font-medium">EthnicRent</h3>
             <p className="text-sm text-muted-foreground">
@@ -73,10 +73,10 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-8 border-t pt-8 text-center text-sm text-muted-foreground">
-          <div className="mb-2">
-            <p>Contact Us: +91 8824741359</p>
-            <p>Owner: Aman Dadheech</p>
-            <p>Email: amandadheech@gmail.com</p>
+          <div className="flex flex-col items-center justify-center mb-2">
+            <p className="mb-1">Contact Us: +91 8824741359</p>
+            <p className="mb-1">Owner: Aman Dadheech</p>
+            <p className="mb-1">Email: amandadheech@gmail.com</p>
           </div>
           <p>© {new Date().getFullYear()} EthnicRent. All rights reserved.</p>
         </div>
