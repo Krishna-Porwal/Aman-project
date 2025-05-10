@@ -89,7 +89,7 @@ export default function CustomerReviews() {
 
   return (
     <div className="py-12 bg-gray-50">
-      <div className="container px-4 md:px-6">
+      <div className="container mx-auto px-4 md:px-6 max-w-7xl">
         <div className="flex flex-col items-center text-center mb-10">
           <h2 className="text-3xl font-bold tracking-tight mb-2">What Our Customers Say</h2>
           <p className="text-muted-foreground max-w-2xl">
@@ -99,7 +99,7 @@ export default function CustomerReviews() {
         </div>
 
         <div className="relative">
-          <div className="flex flex-col md:flex-row gap-6">
+          <div className="flex flex-col md:flex-row gap-4 md:gap-6">
             {visibleReviews.map((review) => (
               <Card key={review.id} className="flex-1">
                 <CardContent className="p-6">

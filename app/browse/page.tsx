@@ -116,7 +116,7 @@ export default function BrowsePage() {
   }, [searchTerm, category, gender, priceRange, rentalDuration])
 
   return (
-    <div className="container mx-auto py-8">
+    <div className="container mx-auto py-8 px-4 max-w-7xl">
       <h1 className="text-3xl font-bold mb-6">Browse Rental Clothes</h1>
 
       <div className="mb-8">
@@ -132,7 +132,7 @@ export default function BrowsePage() {
 
       <div className="flex flex-col md:flex-row gap-6">
         {/* Filters Sidebar */}
-        <div className="w-full md:w-64 space-y-6">
+        <div className="w-full md:w-64 lg:w-72 space-y-6 flex-shrink-0">
           <div className="rounded-lg border p-4">
             <div className="flex items-center justify-between mb-4">
               <h2 className="font-semibold text-lg">Filters</h2>
@@ -200,7 +200,7 @@ export default function BrowsePage() {
         </div>
 
         {/* Main Content */}
-        <div className="flex-1 space-y-6">
+        <div className="flex-1 space-y-6 min-w-0">
           {/* Search Bar */}
           <form
             onSubmit={(e) => {

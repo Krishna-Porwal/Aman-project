@@ -12,7 +12,7 @@ export default function Home() {
 
       {/* Featured Collection */}
       <section className="w-full py-12 md:py-16 bg-gray-50">
-        <div className="container px-4 md:px-6">
+        <div className="container mx-auto px-4 md:px-6 max-w-7xl">
           <ClothesCarousel title="Featured Collection" />
         </div>
       </section>
@@ -22,7 +22,7 @@ export default function Home() {
 
       {/* Latest Uploads */}
       <section className="w-full py-12 md:py-16 bg-gray-50">
-        <div className="container px-4 md:px-6">
+        <div className="container mx-auto px-4 md:px-6 max-w-7xl">
           <ClothesCarousel title="Latest Uploads" />
         </div>
       </section>

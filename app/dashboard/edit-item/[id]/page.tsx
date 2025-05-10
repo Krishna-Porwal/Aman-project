@@ -199,8 +199,8 @@ export default function EditItemPage() {
                     <SelectValue placeholder="Select gender" />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value="male">Men</SelectItem>
-                    <SelectItem value="female">Women</SelectItem>
+                    <SelectItem value="male">Men's</SelectItem>
+                    <SelectItem value="female">Women's</SelectItem>
                     <SelectItem value="kids">Kids</SelectItem>
                     <SelectItem value="unisex">Unisex</SelectItem>
                   </SelectContent>

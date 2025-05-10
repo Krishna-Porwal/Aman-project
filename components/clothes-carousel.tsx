@@ -120,7 +120,7 @@ export default function ClothesCarousel({ title }: ClothesCarouselProps) {
       {/* Horizontal scrolling container */}
       <div
         ref={containerRef}
-        className="flex overflow-x-auto scrollbar-hide snap-x snap-mandatory gap-4 pb-4"
+        className="flex overflow-x-auto scrollbar-hide snap-x snap-mandatory gap-3 md:gap-4 pb-4 -mx-1 px-1"
         style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
       >
         {clothes.map((item, index) => (
